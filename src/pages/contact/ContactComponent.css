@@ -87,7 +87,7 @@
   font-size: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5rem;
 }
 
 .contact-header-detail-text {
@@ -113,6 +113,12 @@
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+  gap: 30px;
+  
+ 
+}
+.myBtn2{
+  margin-right: 50px;
 }
 
 .blogsite-btn-div {

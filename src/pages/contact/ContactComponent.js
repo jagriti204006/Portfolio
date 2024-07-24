@@ -28,7 +28,7 @@ class Contact extends Component {
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
-                  style={{ maxWidth: "60%", maxHeight: "60%", borderRadius: "5%", border: `3px solid ${theme.accentColor}`, boxShadow: `4px 4px 2px ${theme.accentColor}`, marginLeft: "30%" }}
+                  style={{ maxWidth: "80%", maxHeight: "80%", borderRadius: "5%", border: `3px solid ${theme.accentColor}`, boxShadow: `4px 4px 2px ${theme.accentColor}`, marginLeft: "30%" }}
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -48,12 +48,15 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                  class="myBtn2"
+                    text="Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
+
                 </div>
+                
                 <hr></hr>
               </div>
 
@@ -74,9 +77,9 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="Visit My Behance"
                     newTab={true}
-                    href={blogSection.link}
+                    href={greeting.resumeLink}
                     theme={theme}
                   />
                 </div>
@@ -93,11 +96,12 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                {/* <img
+                { <img
 											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
-										/> */}
-                <AddressImg theme={theme} />
+                      style={{ maxWidth: "80%", maxHeight: "80%", borderRadius: "5%", border: `3px solid ${theme.accentColor}`, boxShadow: `4px 4px 2px ${theme.accentColor}`, marginLeft: "30%" }}
+										/> }
+                {/* <AddressImg theme={theme} /> */}
               </div>
               <div className="address-heading-text-div">
                 <h1

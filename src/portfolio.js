@@ -5,400 +5,103 @@
 //TODO: Design animated logo and then revert this back to True
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Atharva's Portfolio",
+  title: "Shriya's Portfolio",
+  nickname:"Visualizer, Guwahati",
   description:
-    "I am a technology enthusiast who prefers to work on a modern stack and experiment with tools that automate repetitive tasks. I enjoy working with APIs and combining my creativity and talent to create amazing utility tools and software systems.",
+    "I am Shriya Poddar, a Communication Design student from Guwahati, Assam. With years of freelancing experience, I excel at turning vague briefs into clear, beautiful deliverables under pressure and within deadlines. Design is my tool for effective communication, and I am dedicated to efficiency and reliability.",
   og: {
-    title: "Atharva's Portfolio",
+    title: "Shriya's Portfolio",
     type: "website",
-    url: "http://highnessatharva.github.io/",
+    url: "http://jagriti204006.github.io/",
   },
 };
 
-//Home Page
+//Home Pagef
 const greeting = {
-  title: "Atharva Shah",
-  logo_name: "AtharvaShah",
-  nickname: "HighnessAtharva",
+  title: "Shriya Poddar",
+  logo_name: "Shriya Poddar",
+  nickname:"Visualizer, Guwahati",
   subTitle:
-    "I'm a tech enthusiast who likes to experiment with tools that automate repetitive tasks and prefers to work on a modern stack. I love using APIs to build incredible utility tools and software systems by fusing my creativity and talent.",
+    "I am Shriya Poddar, a Communication Design student from Guwahati, Assam. With years of freelancing experience, I excel at turning vague briefs into clear, beautiful deliverables under pressure and within deadlines. Design is my tool for effective communication, and I am dedicated to efficiency and reliability.",
   resumeLink:
-    "https://github.com/HighnessAtharva/Blog/blob/master/public/AtharvaShahResume%20-%202022.pdf",
-  portfolio_repository: "https://github.com/HighnessAtharva/",
-  githubProfile: "https://github.com/HighnessAtharva",
+    "https://drive.google.com/file/d/16-cMWeKg64SPrm7ioBT0-uQ6pk4fEYVg/view?usp=drive_link",
+  portfolio_repository: "https://github.com/Shriyapoddar/",
+  githubProfile: "",
 };
 
 const socialMediaLinks = [
 
   {
-    name: "Github",
-    link: "https://github.com/HighnessAtharva",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
+  //   name: "Github",
+  //   link: "https://github.com/HighnessShriya",
+  //   fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+  //   backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  // },
+  // {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/atharva-shah-5873a2111/",
+    link: "https://www.linkedin.com/in/shriya-poddar/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
-    link: "mailto:HighnessAtharva@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    link: "mailto:poddarshriya21@gmail.com",
+    fontAwesomeIcon: "fa fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/HighnessAlex",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
+  
   {
     name: "Instagram",
-    link: "https://www.instagram.com/atharva._.shah/",
+    link: "https://www.instagram.com/poddar_shriya21/?igsh=MWUydHVjaWc1aGh5eQ%3D%3D",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
+  
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Visual Communication",
+     
       skills: [
-        "📊 Web Scraping, Data Mining, Data Cleaning and Data Visualization and working with large datasets using Pandas, Numpy, Matplotlib, Seaborn and Plotly",
-        "📊 Using CSV, JSON, and XML files to create beautiful CLI reports focused on business insights",
-        "📊 Creating highly scalable, production-ready models for a variety of deep learning and statistical applications.",
-        "📊 Working experience with computer vision and NLP projects",
-        "📊 Complex quantitative modelling for dynamic forecasting and time series analysis"
+        "Logo Designing",
+        "Branding",
+        "Packaging"
+        
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
+          skillName: "Adobe After Effects",
+          fontAwesomeClassname: "simple-icons:adobeaftereffects",
           style: {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "Matplotlib",
-          fontAwesomeClassname: "logos:matplotlib-icon",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "MATLAB",
-          fontAwesomeClassname: "vscode-icons:file-type-matlab",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Seaborn",
-          fontAwesomeClassname: "logos:seaborn-icon",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
+        
       ],
     },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "🌐 Building responsive website front end using HTML, CSS, JS, and React.js coupled with powerful PHP and Python backends",
-        "🌐 Perform Authentication, Database Management, API Fetching, Caching, Session Management, Encryption, Server Management and Deployment",
-        "🌐 Building fast, secure, and SEO-friendly SPAs, PWAs, static sites, and mobile-first websites.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            color: "#8F00FF",
-          },
-        },
-        {
-          skillName: "Tailwind",
-          fontAwesomeClassname: "vscode-icons:file-type-tailwind",
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Hugo",
-          fontAwesomeClassname: "simple-icons:hugo",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#F05032",
-          }
-        },
-        {
-          skillName: "Github",
-          fontAwesomeClassname: "simple-icons:github",
-          style: {
-            color: "#181717",
-          }
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          }
-        },
-        {
-          skillName: "SQLite",
-          fontAwesomeClassname: "simple-icons:sqlite",
-          style: {
-            color: "#003B57",
-          }
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          }
-        },
-        {
-          skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
-          style: {
-            color: "#000000",
-          }
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#092E20",
-          }
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#A8B9CC",
-          }
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#00599C",
-          }
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#007396",
-          }
-        }
-      ],
-    },
-    {
-      title: "Cloud Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "☁ Working knowledge of multiple cloud service providers.",
-        "☁ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "☁ Cloud-based deep learning model deployment for mobile device use",
-        "☁ Configuring CI/CD pipelines for cloud-based web app deployment"
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#00C7B7",
-          },
-        },
-        {
-          skillName: "Jenkins",
-          fontAwesomeClassname: "simple-icons:jenkins",
-          style: {
-            color: "#D24939",
-          },
-        }
-      ],
-    },
-    {
-      title: "Design & Productivity",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Creating highly appealing user interfaces for mobile and web applications through logo design.",
-        "⚡ Designing the flow of application functionalities to improve user experience.",
-        "⚡ Developing wireframes, mockups, and prototypes to improve user experience, as well as maintaining project documentation, workflow diagrams, and project reports in accordance with Agile and Scrum methodologies.",
-
-      ],
-      softwareSkills: [
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#21759B",
-          },
-        },
-        {
-          skillName: "Wix",
-          fontAwesomeClassname: "simple-icons:wix",
-          style: {
-            color: "#FF8C00",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Slack",
-          fontAwesomeClassname: "logos:slack-icon",
-
-        },
-        {
-          skillName: "Notion",
-          fontAwesomeClassname: "simple-icons:notion",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: {
-            color: "#FCC624",
-          },
-        },
-        {
-          skillName: "Bash",
-          fontAwesomeClassname: "logos:bash-icon",
-          style: {
-            color: "#4EAA25",
-          },
-        },
-        {
-          skillName: "Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#31A8FF",
-          },
-        },
-      ],
-    },
+    
   ],
 };
 
@@ -406,52 +109,47 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
+      siteName: "Photoshop",
+      iconifyClassname: "simple-icons:adobephotoshop",
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/highnessatharva",
+      // profileLink: "https://www.hackerrank.com/highnessatharva",
     },
     {
-      siteName: "Stack Overflow",
-      iconifyClassname: "simple-icons:stackoverflow",
+      siteName: "Illustrator",
+      iconifyClassname: "simple-icons:adobeillustrator",
       style: {
         color: "#FE7A16",
       },
-      profileLink: "https://stackoverflow.com/users/14287958/atharva-shah",
+      // profileLink: "https://stackoverflow.com/users/14287958/atharva-shah",
     },
     {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
+      siteName: "After Effects",
+      iconifyClassname: "simple-icons:adobeaftereffects",
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/highnessatharva",
+      // profileLink: "https://www.kaggle.com/highnessatharva",
     },
-    {
-      siteName: "Google Cloud",
-      iconifyClassname: "logos:google-cloud",
-
-      profileLink: "https://www.cloudskillsboost.google/public_profiles/ae72a7ef-51bc-427c-aef5-c57a05639eab",
-    }
+    
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "BMCC, Pune",
-      subtitle: "Bachelor of Computer Applications",
-      logo_path: "bmcc_logo.png",
-      alt_name: "BMCC, Pune",
-      duration: "2020 - 2023",
+      title: "The Assam Royal Global University, Guwahati",
+      subtitle: "Bachelor of Design (B.Des)",
+      logo_path: "royal1.png",
+      alt_name: "The Assam Royal Global University, Guwahati",
+      duration: "2020 - 2024",
       descriptions: [
-        "⚡ Studied software engineering subjects such as DS, algorithms, DBMS, OS, CA, AI, networking, and software architecture, among others.",
-        "⚡ Enrolled in add-on courses such as Deep Learning, Probability and Statistics, Data Science, Cloud Computing, and Full Stack Development.",
-        "⚡ Maintained a CGPA of at least 9.5 throughout the academic course while mentoring juniors, organising hackathons, and participating in college-level events. I received an award from a respected director for consistently outstanding academic performance.",
+        "⚡ Studied core design subjects such as Visual Communication, Typography, Illustration, Interaction Design, UX/UI, Design Thinking, and Motion Graphics, among others.",
+        "⚡ Enrolled in add-on courses such as Digital Photography, 3D Modeling, Animation, Design Management, and Branding Strategies.",
+        "⚡ Mentored juniors, organized design exhibitions, and participated in college-level design competitions. I received an award from a respected dean for consistently outstanding academic performance",
       ],
-      website_link: "https://bmcc.ac.in/",
+      website_link: "https://www.rgu.ac/",
     },
   ],
 };
@@ -639,7 +337,7 @@ const experience = {
   subtitle: "Work, Internship and Volunteership",
   description:
     "🚀 Having worked with many evolving startups as a tech support specialist, I am equally capable of working in teams as well as individually. Throughout my journey as a freelancer, I have served many clients with their needs and requirements, working with varied technologies like Python, SQL, HTML, CSS, JavaScript, Wix, WordPress, etc. I have also compiled various learning resources and cheatsheets for my fellow developers and students. I am also a Google Cloud Certified Facilitator, and when I am not serving my clients, I tinker with data analysis and automate trivial tasks with Python.",
-  header_image_path: "experience.svg",
+  header_image_path: "exp.png",
   sections: [
     {
       title: "Hackathons and Competitions",
@@ -699,7 +397,7 @@ const experience = {
           duration: "March 2023 - Present",
           location: "Remote",
           description:
-            `View my contributions: https://www.tutorialspoint.com/authors/atharva-Shah
+            `View my contributions: https://www.tutorialspoint.com/authors/atharva-
             ➙ Conduct in-depth research on various Python-based topics and algorithms to provide detailed tutorials and solutions.
             ➙ Create comprehensive documentation and write clear, concise, and informative tutorials for popular Python libraries such as Matplotlib, Machine Learning, Pandas, Numpy, and more.
             ➙ Ensure the content is plagiarism-free, adhering to high-quality standards, and accessible for learners at all levels.
@@ -834,27 +532,27 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "atharva.jpg",
+    profile_image_path: "shriya.png",
     description:
-      "I can help you with Python, SQL, Data Science, Machine Learning, Web Development, Cloud Computing, and Open Source Development. I am also available for freelance work. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+      "I offer expertise in branding, packaging, visual design, logo creation, and designing menu cards, brochures, and catalogues and much more. Available for freelance work, I am committed to delivering professional and timely responses. Whether you have a specific project or just want to connect, I am here to assist you.",
   },
   blogSection: {
-    title: "Blog",
+    title: "Behance",
     subtitle:
-      "I write about Web Development, Cheatsheet, CSS, Regex, OS, DBMS and Data Structures and Algorithms. I also write about my experiences and learnings in the field of Web Development, Open Source, and Cloud Computing. Check out my Hashnode Blog to read more.",
-    link: "https://opensourced.hashnode.dev/",
+      "View my professional shot collection over at Behance. I meticulously craft product visuals that captivate and innovate. Let's bring your ideas to life with stunning design.",
+    link: "https://www.behance.net/shriyapoddar",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Looking for a Developer?",
+    title: "Looking for a Designer? ",
     subtitle:
-      "I am open to remote work opportunities involving web development, machine learning, data science, cloud computing, and open source development with a focus on Python, JavaScript, React, Node.js, SQL, and Django. I always look forward to collaborating with a driven, forward-thinking team to create fantastic software because I firmly believe that the whole is greater than the sum of its parts. Reach out to me via email or LinkedIn, and I will get back to you as soon as possible.",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+      " I specialize in branding, packaging, and visual design, with expertise in Adobe Creative Suite, Sketch, and Figma. My portfolio includes crafting distinctive brand identities and designing innovative packaging. I enjoy collaborating with dynamic, forward-thinking teams to bring creative visions to life. For inquiries, feel free to contact me via email or LinkedIn.",
+    avatar_image_path: "looking.png",
+
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 7888041942",
+    subtitle: "+91 76370 75556",
   },
 };
 
