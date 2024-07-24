@@ -17,7 +17,7 @@
 
 .address-heading-div {
   display: flex;
-  margin-top: 80px;
+  margin-top: -120px;
 }
 
 .blog-heading-div > * {
@@ -114,10 +114,8 @@
   justify-content: center;
   margin-bottom: 100px;
   gap: 30px;
-  
- 
 }
-.myBtn2{
+.myBtn2 {
   margin-right: 50px;
 }
 
@@ -166,10 +164,10 @@
     margin-top: 60px;
   }
 
-  .address-heading-div {
+  /* .address-heading-div {
     flex-direction: column;
-    margin-top: 60px;
-  }
+    margin-top: -100px;
+  } */
 
   .blog-heading-text-div {
     margin-top: 40px;

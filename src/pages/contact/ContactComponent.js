@@ -28,7 +28,14 @@ class Contact extends Component {
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
-                  style={{ maxWidth: "80%", maxHeight: "80%", borderRadius: "5%", border: `3px solid ${theme.accentColor}`, boxShadow: `4px 4px 2px ${theme.accentColor}`, marginLeft: "30%" }}
+                  style={{
+                    maxWidth: "80%",
+                    maxHeight: "60%",
+                    borderRadius: "5%",
+                    border: `3px solid ${theme.accentColor}`,
+                    boxShadow: `4px 4px 2px ${theme.accentColor}`,
+                    marginLeft: "30%",
+                  }}
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -48,20 +55,17 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                  class="myBtn2"
+                    class="myBtn2"
                     text="Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-
                 </div>
-                
+
                 <hr></hr>
               </div>
-
             </div>
-
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
@@ -85,22 +89,39 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <BlogsImg theme={theme} />
+                <img
+                  src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
+                  alt=""
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "80%",
+                    borderRadius: "5%",
+                    border: `3px solid ${theme.accentColor}`,
+                    boxShadow: `4px 4px 2px ${theme.accentColor}`,
+                    marginLeft: "10%",
+                  }}
+                />
+                {/* <BlogsImg theme={theme} /> */}
               </div>
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                { <img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-                      style={{ maxWidth: "80%", maxHeight: "80%", borderRadius: "5%", border: `3px solid ${theme.accentColor}`, boxShadow: `4px 4px 2px ${theme.accentColor}`, marginLeft: "30%" }}
-										/> }
+                {
+                  <img
+                    src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
+                    alt=""
+                    style={{
+                      maxWidth: "80%",
+                      maxHeight: "80%",
+                      borderRadius: "5%",
+                      border: `3px solid ${theme.accentColor}`,
+                      boxShadow: `4px 4px 2px ${theme.accentColor}`,
+                      marginLeft: "30%",
+                    }}
+                  />
+                }
                 {/* <AddressImg theme={theme} /> */}
               </div>
               <div className="address-heading-text-div">
