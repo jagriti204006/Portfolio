@@ -5,13 +5,13 @@
 //TODO: Design animated logo and then revert this back to True
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
   title: "Shriya's Portfolio",
-  nickname:"Visualizer, Guwahati",
+  nickname: "Visualizer, Guwahati",
   description:
     "I am Shriya Poddar, a Communication Design student from Guwahati, Assam. With years of freelancing experience, I excel at turning vague briefs into clear, beautiful deliverables under pressure and within deadlines. Design is my tool for effective communication, and I am dedicated to efficiency and reliability.",
   og: {
@@ -25,7 +25,7 @@ const seo = {
 const greeting = {
   title: "Shriya Poddar",
   logo_name: "Shriya Poddar",
-  nickname:"Visualizer, Guwahati",
+  nickname: "Visualizer, Guwahati",
   subTitle:
     "I am Shriya Poddar, a Communication Design student from Guwahati, Assam. With years of freelancing experience, I excel at turning vague briefs into clear, beautiful deliverables under pressure and within deadlines. Design is my tool for effective communication, and I am dedicated to efficiency and reliability.",
   resumeLink:
@@ -35,14 +35,13 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-
   {
-  //   name: "Github",
-  //   link: "https://github.com/HighnessShriya",
-  //   fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-  //   backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  // },
-  // {
+    //   name: "Github",
+    //   link: "https://github.com/HighnessShriya",
+    //   fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    //   backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    // },
+    // {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/shriya-poddar/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
@@ -54,27 +53,22 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  
+
   {
     name: "Instagram",
-    link: "https://www.instagram.com/poddar_shriya21/?igsh=MWUydHVjaWc1aGh5eQ%3D%3D",
+    link:
+      "https://www.instagram.com/poddar_shriya21/?igsh=MWUydHVjaWc1aGh5eQ%3D%3D",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
-  
 ];
 
 const skills = {
   data: [
     {
       title: "Visual Communication",
-     
-      skills: [
-        "Logo Designing",
-        "Branding",
-        "Packaging"
-        
-      ],
+
+      skills: ["Logo Designing", "Branding", "Packaging"],
       softwareSkills: [
         {
           skillName: "Adobe Photoshop",
@@ -98,10 +92,8 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-        
       ],
     },
-    
   ],
 };
 
@@ -132,7 +124,6 @@ const competitiveSites = {
       },
       // profileLink: "https://www.kaggle.com/highnessatharva",
     },
-    
   ],
 };
 
@@ -327,7 +318,7 @@ const certifications = {
         "https://www.coursera.org/account/accomplishments/verify/4AWPYRSCGA86",
       alt_name: "Coursera",
       color_code: "#2A73CC",
-    }
+    },
   ],
 };
 
@@ -342,7 +333,6 @@ const experience = {
     {
       title: "Hackathons and Competitions",
       experiences: [
-
         {
           title: "CRIF India Hackathon 2023",
           company: "",
@@ -364,8 +354,7 @@ const experience = {
           description:
             "Won second place in a cyber olympiad with 3 rounds of aptitude tests, MCQs and programming and debugging challenges. The competition was held in 3 phases, and I was selected for the final round after clearing the first two rounds. I was awarded a Lenovo laptop for getting the second place in the competition.",
           color: "red",
-        }
-
+        },
       ],
     },
     {
@@ -378,8 +367,7 @@ const experience = {
           logo_path: "AccuKnox.jpeg",
           duration: "May 2023 - Present",
           location: "Remote",
-          description:
-            `
+          description: `
             ➙ Composed engaging and informative blog posts, white papers, e-books, and videos to educate and engage the target audience on Cloud Native Application Privacy and Protection (CNAPP) topics.
             ➙ Demonstrated proficiency in using various software tools such as G Suite, Jira, Confluence, Excalidraw, PlantUML, and Wordpress to efficiently create, manage, and publish content.
             ➙ Conducted extensive research on emerging trends and industry best practices related to CNAPP, Zero-Trust principles, Use Cases, Deep Dives, Kubernetes, and DevSecOps to produce high-quality editorial-style content.
@@ -391,13 +379,11 @@ const experience = {
         {
           title: "Freelance Python Specialist",
           company: "TutorialsPoint",
-          company_url:
-            "https://www.tutorialspoint.com/",
+          company_url: "https://www.tutorialspoint.com/",
           logo_path: "TutorialsPoint.jpeg",
           duration: "March 2023 - Present",
           location: "Remote",
-          description:
-            `View my contributions: https://www.tutorialspoint.com/authors/atharva-
+          description: `View my contributions: https://www.tutorialspoint.com/authors/atharva-
             ➙ Conduct in-depth research on various Python-based topics and algorithms to provide detailed tutorials and solutions.
             ➙ Create comprehensive documentation and write clear, concise, and informative tutorials for popular Python libraries such as Matplotlib, Machine Learning, Pandas, Numpy, and more.
             ➙ Ensure the content is plagiarism-free, adhering to high-quality standards, and accessible for learners at all levels.
@@ -415,8 +401,7 @@ const experience = {
           logo_path: "board_infinity.png",
           duration: "July 2022 - December 2022",
           location: "Mumbai, Maharashtra",
-          description:
-            `➙ Wrote over 20 professional technical articles ranging from topics like programming cheat sheets, full-stack developer resources, programming paradigms, data structures and algorithms, and technical interview tips, with word counts ranging from 1500 to 2000.
+          description: `➙ Wrote over 20 professional technical articles ranging from topics like programming cheat sheets, full-stack developer resources, programming paradigms, data structures and algorithms, and technical interview tips, with word counts ranging from 1500 to 2000.
 
             ➙ Researched and wrote 120 technical articles ranging from 500 to 1000 words related to data structures, algorithms, software development, engineering principles, databases, and programming languages (Java, Python, and C++).
 
@@ -426,7 +411,7 @@ const experience = {
 
             ➙ Provided over 150 descriptions for video courses on modules like DBMS, OS, Data Science, Computer Networking, and Algorithms in C++`,
           color: "#ee3c26",
-        }
+        },
       ],
     },
     {
@@ -447,8 +432,7 @@ const experience = {
         {
           title: "Developer Students Club Member",
           company: "Troika",
-          company_url:
-            "https://www.bmcc.ac.in",
+          company_url: "https://www.bmcc.ac.in",
           logo_path: "bmcc_logo.png",
           duration: "January 2022 - January 2023",
           location: "Pune, Maharashtra",
@@ -467,7 +451,7 @@ const experience = {
           description:
             "Completed four tracks of cloud training. Learned and imparted the skills of DevOps, Cloud Safety, Creating and Deploying Apps in the Cloud, Kubernetes Engine, Scaling, and Data Management on the Cloud. The curriculum offers four tracks of hands-on cloud based training to be performed through virtual machines provided via Qwiklabs. Major duties were to train other students on campus, build a community, and preach the importance of cloud computing and its applications in the real world.",
           color: "#4285F4",
-        }
+        },
       ],
     },
   ],
@@ -493,35 +477,38 @@ const publications = {
     {
       name: "50 Powerful CSS Snippets",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Shared and explained essential CSS code snippets that should be in every developer's arsenal. Got amazing feedback from the commmunity and enabled people to flex their CSS Superpowers!",
-      url:
-        "https://opensourced.hashnode.dev/series/50-powerful-css-snippets/",
+      description:
+        "Shared and explained essential CSS code snippets that should be in every developer's arsenal. Got amazing feedback from the commmunity and enabled people to flex their CSS Superpowers!",
+      url: "https://opensourced.hashnode.dev/series/50-powerful-css-snippets/",
     },
     {
       name: "Data Structures and Algorithms in Python",
       createdAt: "2022-12-02T16:26:54Z",
-      description: "450 DSA Questions Solved in Python with clean code and explanation for topics like Arrays, Strings, Linked Lists, Trees, Graphs, etc.",
-      url:
-        "https://opensourced.hashnode.dev/series/dsa-python",
+      description:
+        "450 DSA Questions Solved in Python with clean code and explanation for topics like Arrays, Strings, Linked Lists, Trees, Graphs, etc.",
+      url: "https://opensourced.hashnode.dev/series/dsa-python",
     },
     {
       name: "Python Web Scraping",
       createdAt: "2021-01-19T16:26:54Z",
-      description: "Provided code snippets and explanation for scraping web articles in Python. Also, provided a script to download all the articles in a single click.",
+      description:
+        "Provided code snippets and explanation for scraping web articles in Python. Also, provided a script to download all the articles in a single click.",
       url:
         "https://opensourced.hashnode.dev/python-web-scraping-batch-download-web-articles",
     },
     {
       name: "GPT-3 for JavaScript",
       createdAt: "2021-01-20T16:26:54Z",
-      description: "Showcased the power of GPT-3 by creating a simple JavaScript library that can be used to generate code snippets for a variety of tasks. This article got featured on the official Hashnode Community platform.",
+      description:
+        "Showcased the power of GPT-3 by creating a simple JavaScript library that can be used to generate code snippets for a variety of tasks. This article got featured on the official Hashnode Community platform.",
       url:
         "https://opensourced.hashnode.dev/using-gpt-3-to-build-a-javascript-app",
     },
     {
       name: "DBMS Quick Reference",
       createdAt: "2021-01-22T16:26:54Z",
-      description: "I have created a quick reference guide for Database Management Systems. This guide covers the basics of DBMS, RDBMS, SQL, NoSQL, etc.",
+      description:
+        "I have created a quick reference guide for Database Management Systems. This guide covers the basics of DBMS, RDBMS, SQL, NoSQL, etc.",
       url:
         "https://opensourced.hashnode.dev/database-management-systems-quick-recapreference",
     },
@@ -541,14 +528,13 @@ const contactPageData = {
     subtitle:
       "View my professional shot collection over at Behance. I meticulously craft product visuals that captivate and innovate. Let's bring your ideas to life with stunning design.",
     link: "https://www.behance.net/shriyapoddar",
-    avatar_image_path: "blogs_image.svg",
+    avatar_image_path: "behance.png",
   },
   addressSection: {
     title: "Looking for a Designer? ",
     subtitle:
       " I specialize in branding, packaging, and visual design, with expertise in Adobe Creative Suite, Sketch, and Figma. My portfolio includes crafting distinctive brand identities and designing innovative packaging. I enjoy collaborating with dynamic, forward-thinking teams to bring creative visions to life. For inquiries, feel free to contact me via email or LinkedIn.",
     avatar_image_path: "looking.png",
-
   },
   phoneSection: {
     title: "Phone Number",
