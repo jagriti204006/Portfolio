@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71822d7fd8b1e9bb04444af0a7469701",
+    "revision": "fdb24dadaf6357455f0488a667c6d6be",
     "url": "./index.html"
   },
   {
-    "revision": "958f9bb785316aef2961",
-    "url": "./static/css/main.66b94378.chunk.css"
+    "revision": "3180a1f9c92fd0176db4",
+    "url": "./static/css/main.7590a8b6.chunk.css"
   },
   {
-    "revision": "e3f30163d5f6d6e7b37d",
-    "url": "./static/js/2.c1a4faf9.chunk.js"
+    "revision": "95f7aca30da4c5942877",
+    "url": "./static/js/2.1fb242cf.chunk.js"
   },
   {
-    "revision": "958f9bb785316aef2961",
-    "url": "./static/js/main.12bdcaff.chunk.js"
+    "revision": "3180a1f9c92fd0176db4",
+    "url": "./static/js/main.d0ec6240.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
@@ -52,8 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "91a99d7810557137c9783ac3d09a9a2c",
+    "url": "./static/media/Shriya Poddar Resume.91a99d78.pdf"
+  },
+  {
     "revision": "8a425eb0fbc2def19aa88406d76a5f3b",
     "url": "./static/media/TutorialsPoint.8a425eb0.jpeg"
+  },
+  {
+    "revision": "2092913e83c6f5949e81162b03633a39",
+    "url": "./static/media/about.2092913e.png"
   },
   {
     "revision": "16559172ca1d4d552390b48f19e102ba",
@@ -108,12 +116,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/dsc_logo.63f707f2.png"
   },
   {
+    "revision": "68caddc6119672ebf04f48bfd01761d1",
+    "url": "./static/media/edu.68caddc6.png"
+  },
+  {
     "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
     "url": "./static/media/education.3bab7a9d.svg"
   },
   {
+    "revision": "68caddc6119672ebf04f48bfd01761d1",
+    "url": "./static/media/education.68caddc6.png"
+  },
+  {
+    "revision": "c96bf866c78cdea51185580d9407ff20",
+    "url": "./static/media/exp.c96bf866.png"
+  },
+  {
     "revision": "a00ede3f70759480e81f14f203edaa51",
     "url": "./static/media/experience.a00ede3f.svg"
+  },
+  {
+    "revision": "c96bf866c78cdea51185580d9407ff20",
+    "url": "./static/media/experience.c96bf866.png"
   },
   {
     "revision": "0017cc6de3f72f67753efa37bb796fbd",
@@ -220,6 +244,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/legato_logo.c597fbde.png"
   },
   {
+    "revision": "f330737eb1167bbe66c67c1e68cb8eee",
+    "url": "./static/media/looking.f330737e.png"
+  },
+  {
     "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
     "url": "./static/media/manOnTable.83ac24fb.svg"
   },
@@ -252,8 +280,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/pwa.71408db7.png"
   },
   {
+    "revision": "035fe71c171f1e7be2189278a9fb7b11",
+    "url": "./static/media/royal.035fe71c.jpg"
+  },
+  {
+    "revision": "f2fb5175d66420c499bb8a25a0cf6901",
+    "url": "./static/media/royal1.f2fb5175.png"
+  },
+  {
     "revision": "e4ea17c99bb5b6d70803afb5a8011b2a",
     "url": "./static/media/shriya.e4ea17c9.jpg"
+  },
+  {
+    "revision": "805a94ec28f3c9b56d87b0e3aebcb27a",
+    "url": "./static/media/shriya1.805a94ec.png"
+  },
+  {
+    "revision": "f4fff0b6b5652b6b0ebdb0d6f4dec87c",
+    "url": "./static/media/shriya1.f4fff0b6.jpg"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",
@@ -274,5 +318,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f6bc27ca9caa225faa698e4878a0ad04",
     "url": "./static/media/uni_michigan.f6bc27ca.png"
+  },
+  {
+    "revision": "5de29accc12a77e60b70c5d3b85fc7b1",
+    "url": "./static/media/what.5de29acc.png"
   }
 ]);
