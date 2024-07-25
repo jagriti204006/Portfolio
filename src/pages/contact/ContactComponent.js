@@ -83,8 +83,8 @@ class Contact extends Component {
                   <Button
                     text="Visit My Behance"
                     newTab={true}
-                    href={greeting.resumeLink}
-                    theme={theme}
+                    href="https://www.behance.net/shriyapoddar"
+                                          theme={theme}
                   />
                 </div>
               </div>

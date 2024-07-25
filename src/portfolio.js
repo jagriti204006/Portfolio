@@ -92,6 +92,21 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
+        {
+          skillName: "InDesign",
+          fontAwesomeClassname: "simple-icons:indesign",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        
       ],
     },
   ],
@@ -108,6 +123,7 @@ const competitiveSites = {
       },
       // profileLink: "https://www.hackerrank.com/highnessatharva",
     },
+
     {
       siteName: "Illustrator",
       iconifyClassname: "simple-icons:adobeillustrator",
@@ -123,6 +139,22 @@ const competitiveSites = {
         color: "#20BEFF",
       },
       // profileLink: "https://www.kaggle.com/highnessatharva",
+    },
+    {
+      siteName: "InDesign",
+      iconifyClassname: "simple-icons:indesign",
+      style: {
+        color: "#2EC866",
+      },
+      // profileLink: "https://www.hackerrank.com/highnessatharva",
+    },
+    {
+      siteName: "Figma",
+      iconifyClassname: "simple-icons:figma",
+      style: {
+        color: "#2EC866",
+      },
+      // profileLink: "https://www.hackerrank.com/highnessatharva",
     },
   ],
 };
