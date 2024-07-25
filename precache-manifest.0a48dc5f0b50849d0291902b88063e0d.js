@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdb24dadaf6357455f0488a667c6d6be",
+    "revision": "7e536a3bac9c7699c204be2042bb024b",
     "url": "./index.html"
   },
   {
-    "revision": "3180a1f9c92fd0176db4",
-    "url": "./static/css/main.7590a8b6.chunk.css"
+    "revision": "a9c8f8f280daff62ef62",
+    "url": "./static/css/main.27dfe366.chunk.css"
   },
   {
-    "revision": "95f7aca30da4c5942877",
-    "url": "./static/js/2.1fb242cf.chunk.js"
+    "revision": "08f65b3ce4c77712337b",
+    "url": "./static/js/2.3260ff4b.chunk.js"
   },
   {
-    "revision": "3180a1f9c92fd0176db4",
-    "url": "./static/js/main.d0ec6240.chunk.js"
+    "revision": "a9c8f8f280daff62ef62",
+    "url": "./static/js/main.2f57b43a.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6f3c80e1fe7696511cf16396f09a90fd",
     "url": "./static/media/atharva.6f3c80e1.jpg"
+  },
+  {
+    "revision": "6ae6a764c7f5b2fa9f12bc5f88c42804",
+    "url": "./static/media/behance.6ae6a764.png"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
@@ -286,6 +290,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2fb5175d66420c499bb8a25a0cf6901",
     "url": "./static/media/royal1.f2fb5175.png"
+  },
+  {
+    "revision": "88ec4ea407569ac7625dcbeee88eb0ab",
+    "url": "./static/media/shriya.88ec4ea4.png"
   },
   {
     "revision": "e4ea17c99bb5b6d70803afb5a8011b2a",

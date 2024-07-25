@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.7590a8b6.chunk.css",
-    "main.js": "./static/js/main.d0ec6240.chunk.js",
-    "main.js.map": "./static/js/main.d0ec6240.chunk.js.map",
+    "main.css": "./static/css/main.27dfe366.chunk.css",
+    "main.js": "./static/js/main.2f57b43a.chunk.js",
+    "main.js.map": "./static/js/main.2f57b43a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
-    "static/js/2.1fb242cf.chunk.js": "./static/js/2.1fb242cf.chunk.js",
-    "static/js/2.1fb242cf.chunk.js.map": "./static/js/2.1fb242cf.chunk.js.map",
+    "static/js/2.3260ff4b.chunk.js": "./static/js/2.3260ff4b.chunk.js",
+    "static/js/2.3260ff4b.chunk.js.map": "./static/js/2.3260ff4b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.19af044d6aba90e2b861c4d75a338ea8.js": "./precache-manifest.19af044d6aba90e2b861c4d75a338ea8.js",
+    "precache-manifest.0a48dc5f0b50849d0291902b88063e0d.js": "./precache-manifest.0a48dc5f0b50849d0291902b88063e0d.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.7590a8b6.chunk.css.map": "./static/css/main.7590a8b6.chunk.css.map",
+    "static/css/main.27dfe366.chunk.css.map": "./static/css/main.27dfe366.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Shriya Poddar Resume.pdf": "./static/media/Shriya Poddar Resume.91a99d78.pdf",
     "static/media/TutorialsPoint.jpeg": "./static/media/TutorialsPoint.8a425eb0.jpeg",
@@ -19,6 +19,7 @@
     "static/media/animated_logo.svg": "./static/media/animated_logo.dcd6dee2.svg",
     "static/media/atharva.png": "./static/media/atharva.59fda011.png",
     "static/media/atharva.jpg": "./static/media/atharva.6f3c80e1.jpg",
+    "static/media/behance.png": "./static/media/behance.6ae6a764.png",
     "static/media/blogs_image.svg": "./static/media/blogs_image.058eca4c.svg",
     "static/media/bmcc_logo.png": "./static/media/bmcc_logo.7ab386dc.png",
     "static/media/cloud_infrastructure.svg": "./static/media/cloud_infrastructure.cacbc42b.svg",
@@ -57,6 +58,7 @@
     "static/media/pwa.png": "./static/media/pwa.71408db7.png",
     "static/media/royal.jpg": "./static/media/royal.035fe71c.jpg",
     "static/media/royal1.png": "./static/media/royal1.f2fb5175.png",
+    "static/media/shriya.png": "./static/media/shriya.88ec4ea4.png",
     "static/media/shriya.jpg": "./static/media/shriya.e4ea17c9.jpg",
     "static/media/shriya1.png": "./static/media/shriya1.805a94ec.png",
     "static/media/shriya1.jpg": "./static/media/shriya1.f4fff0b6.jpg",
@@ -69,8 +71,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
-    "static/js/2.1fb242cf.chunk.js",
-    "static/css/main.7590a8b6.chunk.css",
-    "static/js/main.d0ec6240.chunk.js"
+    "static/js/2.3260ff4b.chunk.js",
+    "static/css/main.27dfe366.chunk.css",
+    "static/js/main.2f57b43a.chunk.js"
   ]
 }
