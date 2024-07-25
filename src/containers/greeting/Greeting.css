@@ -61,7 +61,7 @@
     font-size: 50px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 15px !important;
   }
 }
 @media (max-width: 768px) {

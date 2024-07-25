@@ -13,7 +13,7 @@ const seo = {
   title: "Shriya's Portfolio",
   nickname: "Visualizer, Guwahati",
   description:
-    "I am Shriya Poddar, a Communication Design student from Guwahati, Assam. With years of freelancing experience, I excel at turning vague briefs into clear, beautiful deliverables under pressure and within deadlines. Design is my tool for effective communication, and I am dedicated to efficiency and reliability.",
+    "I’m a Communication Designer with a focus on branding and packaging design. Over years of freelancing, I've transformed the vaguest briefs into unique, eye-catching creations. My mission is to design unforgettable brand experiences through graphic design, typography, and visual communication. Committed to excellence, I ensure that every project resonates deeply with its audience, bringing your vision to life.",
   og: {
     title: "Shriya's Portfolio",
     type: "website",
@@ -27,7 +27,7 @@ const greeting = {
   logo_name: "Shriya Poddar",
   nickname: "Visualizer, Guwahati",
   subTitle:
-    "I am Shriya Poddar, a Communication Design student from Guwahati, Assam. With years of freelancing experience, I excel at turning vague briefs into clear, beautiful deliverables under pressure and within deadlines. Design is my tool for effective communication, and I am dedicated to efficiency and reliability.",
+    "I’m a Communication Designer with a focus on branding and packaging design. Over years of freelancing, I've transformed the vaguest briefs into unique, eye-catching creations. My mission is to design unforgettable brand experiences through graphic design, typography, and visual communication. Committed to excellence, I ensure that every project resonates deeply with its audience, bringing your vision to life.",
   resumeLink:
     "https://drive.google.com/file/d/16-cMWeKg64SPrm7ioBT0-uQ6pk4fEYVg/view?usp=drive_link",
   portfolio_repository: "https://github.com/Shriyapoddar/",
@@ -327,7 +327,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "🚀 Having worked with many evolving startups as a tech support specialist, I am equally capable of working in teams as well as individually. Throughout my journey as a freelancer, I have served many clients with their needs and requirements, working with varied technologies like Python, SQL, HTML, CSS, JavaScript, Wix, WordPress, etc. I have also compiled various learning resources and cheatsheets for my fellow developers and students. I am also a Google Cloud Certified Facilitator, and when I am not serving my clients, I tinker with data analysis and automate trivial tasks with Python.",
+    "🚀Having worked with evolving startups as a visual designer, I am equally capable of working in teams as well as individually. Throughout my journey as a freelancer and as a private company employee, I have served many clients with their needs and requirements, working on varied projects including logo designing, branding, packaging, and visual communication. I am proficient in using design tools like Adobe Photoshop, Illustrator, and After Effects. I have also compiled various design resources and tutorials for my fellow designers and students. When I am not serving my clients, I explore new design trends and experiment with motion graphics and interactive designs.",
   header_image_path: "exp.png",
   sections: [
     {
