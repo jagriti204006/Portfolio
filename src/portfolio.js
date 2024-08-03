@@ -11,7 +11,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Shriya's Portfolio",
-  nickname: "Visualizer, Guwahati",
+  nickname: "Visualiser | Graphic Designer",
   description:
     "I’m a Communication Designer with a focus on branding and packaging design. Over years of freelancing, I've transformed the vaguest briefs into unique, eye-catching creations. My mission is to design unforgettable brand experiences through graphic design, typography, and visual communication. Committed to excellence, I ensure that every project resonates deeply with its audience, bringing your vision to life.",
   og: {
@@ -25,7 +25,7 @@ const seo = {
 const greeting = {
   title: "Shriya Poddar",
   logo_name: "Shriya Poddar",
-  nickname: "Visualizer, Guwahati",
+  nickname: "Visualiser | Graphic Designer",
   subTitle:
     "I’m a Communication Designer with a focus on branding and packaging design. Over years of freelancing, I've transformed the vaguest briefs into unique, eye-catching creations. My mission is to design unforgettable brand experiences through graphic design, typography, and visual communication. Committed to excellence, I ensure that every project resonates deeply with its audience, bringing your vision to life.",
   resumeLink:
@@ -68,7 +68,7 @@ const skills = {
     {
       title: "Visual Communication",
 
-      skills: ["Logo Designing", "Branding", "Packaging"],
+      skills: ["Logo Designing", "Branding", "Packaging", "Graphic Design", "Website Design", "Print Design", "Brochure Design", "Design Strategy", "Visual Identity", "Brand Guidelines"],
       softwareSkills: [
         {
           skillName: "Adobe Photoshop",
@@ -553,7 +553,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "shriya.png",
     description:
-      "I offer expertise in branding, packaging, visual design, logo creation, and designing menu cards, brochures, and catalogues and much more. Available for freelance work, I am committed to delivering professional and timely responses. Whether you have a specific project or just want to connect, I am here to assist you.",
+      "I offer expertise in branding, packaging, visual design, logo creation, and designing menu cards, brochures, catalogues and much more. Available for freelance work, I am committed to delivering professional and timely responses. Whether you have a specific project or just want to connect, I am here to assist you.",
   },
   blogSection: {
     title: "Behance",
