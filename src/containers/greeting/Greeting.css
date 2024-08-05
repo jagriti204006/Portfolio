@@ -32,22 +32,22 @@
 
 .greeting-text {
   margin-top: 80px;
-  font-size: 70px;
+  font-size: 55px;
   line-height: 1.1;
-  font-family: "Google Sans Bold";
+  font-family:"Poppins";
 }
 
 .greeting-nickname {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 0px;
-  font-family: "Google Sans Bold Italic";
+  font-family:"Poppins";
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   margin-right: 40px;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins";
 }
 
 .greeting-image-div > * {
@@ -58,7 +58,7 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 30px;
   }
   .greeting-text-p {
     font-size: 15px !important;
@@ -69,7 +69,7 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0px;
     text-align: center;
   }
