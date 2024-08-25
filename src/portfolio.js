@@ -68,7 +68,18 @@ const skills = {
     {
       title: "Visual Communication",
 
-      skills: ["Logo Designing", "Branding", "Packaging", "Graphic Design", "Website Design", "Print Design", "Brochure Design", "Design Strategy", "Visual Identity", "Brand Guidelines"],
+      skills: [
+        "Logo Designing",
+        "Branding",
+        "Packaging",
+        "Graphic Design",
+        "Website Design",
+        "Print Design",
+        "Brochure Design",
+        "Design Strategy",
+        "Visual Identity",
+        "Brand Guidelines",
+      ],
       softwareSkills: [
         {
           skillName: "Adobe Photoshop",
@@ -106,7 +117,6 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-        
       ],
     },
   ],
@@ -363,29 +373,51 @@ const experience = {
   header_image_path: "exp.png",
   sections: [
     {
-      title: "Hackathons and Competitions",
+      title: "Projects",
       experiences: [
         {
-          title: "CRIF India Hackathon 2023",
+          title: "TBREC Portfolio Design",
           company: "",
           company_url: "",
-          logo_path: "freecopy_logo.png",
-          duration: "Jan 2023",
-          location: "COEP, Pune",
+          logo_path: "TBREC.png",
+          // duration: "Jan 2023",
+          // location: "COEP, Pune",
           description:
             "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
           color: "#fc1f20",
         },
         {
-          title: "PAI Cyber National Olympiad",
+          title: "Planck Food Portfolio",
           company: "",
           company_url: "",
-          logo_path: "freecopy_logo.png",
-          duration: "Jan 2020",
-          location: "Ferguson College, Pune",
+          logo_path: "planck.png",
+          // duration: "Jan 2023",
+          // location: "COEP, Pune",
           description:
-            "Won second place in a cyber olympiad with 3 rounds of aptitude tests, MCQs and programming and debugging challenges. The competition was held in 3 phases, and I was selected for the final round after clearing the first two rounds. I was awarded a Lenovo laptop for getting the second place in the competition.",
-          color: "red",
+            "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
+          color: "#fc1f20",
+        },
+        {
+          title: "PaintoMedic Logo Design",
+          company: "",
+          company_url: "",
+          logo_path: "paint.png",
+          // duration: "Jan 2023",
+          // location: "COEP, Pune",
+          description:
+            "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
+          color: "#fc1f20",
+        },
+        {
+          title: "MHWS School and Colleges Brochure Design",
+          company: "",
+          company_url: "",
+          logo_path: "school.png",
+          // duration: "Jan 2023",
+          // location: "COEP, Pune",
+          description:
+            "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
+          color: "#fc1f20",
         },
       ],
     },
@@ -393,12 +425,12 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Technical Writer",
-          company: "AccuKnox",
-          company_url: "https://www.accuknox.com/",
-          logo_path: "AccuKnox.jpeg",
-          duration: "May 2023 - Present",
-          location: "Remote",
+          title: "Graphic Designer",
+          company: "Patil Kaki",
+          company_url: "https://patilkaki.com/",
+          logo_path: "patil.png",
+          // duration: "May 2023 - Present",
+          // location: "Remote",
           description: `
             ➙ Composed engaging and informative blog posts, white papers, e-books, and videos to educate and engage the target audience on Cloud Native Application Privacy and Protection (CNAPP) topics.
             ➙ Demonstrated proficiency in using various software tools such as G Suite, Jira, Confluence, Excalidraw, PlantUML, and Wordpress to efficiently create, manage, and publish content.
@@ -408,84 +440,84 @@ const experience = {
             `,
           color: "#0071C5",
         },
-        {
-          title: "Freelance Python Specialist",
-          company: "TutorialsPoint",
-          company_url: "https://www.tutorialspoint.com/",
-          logo_path: "TutorialsPoint.jpeg",
-          duration: "March 2023 - Present",
-          location: "Remote",
-          description: `View my contributions: https://www.tutorialspoint.com/authors/atharva-
-            ➙ Conduct in-depth research on various Python-based topics and algorithms to provide detailed tutorials and solutions.
-            ➙ Create comprehensive documentation and write clear, concise, and informative tutorials for popular Python libraries such as Matplotlib, Machine Learning, Pandas, Numpy, and more.
-            ➙ Ensure the content is plagiarism-free, adhering to high-quality standards, and accessible for learners at all levels.
-            ➙ Demonstrate proficiency in solving complex problems across different domains, leveraging Python and its associated libraries.
-            ➙ Successfully tackle challenges related to data visualization using Matplotlib, data manipulation with Pandas, implementing machine learning algorithms, and working with databases.
-            ➙ Apply web scraping techniques and utilize frameworks like Flask and Django for web development projects.
-            ➙ Showcase expertise in Python programming and data structures to deliver efficient and optimized solutions.
-            ➙ Stay up-to-date with the latest developments in the Python ecosystem and related technologies to ensure the content remains relevant and cutting-edge.`,
-          color: "#009933",
-        },
-        {
-          title: "Freelance Technical Content Writer",
-          company: "Board Infinity",
-          company_url: "https://www.boardinfinity.com/",
-          logo_path: "board_infinity.png",
-          duration: "July 2022 - December 2022",
-          location: "Mumbai, Maharashtra",
-          description: `➙ Wrote over 20 professional technical articles ranging from topics like programming cheat sheets, full-stack developer resources, programming paradigms, data structures and algorithms, and technical interview tips, with word counts ranging from 1500 to 2000.
+        // {
+        //   title: "Freelance Python Specialist",
+        //   company: "TutorialsPoint",
+        //   company_url: "https://www.tutorialspoint.com/",
+        //   logo_path: "TutorialsPoint.jpeg",
+        //   duration: "March 2023 - Present",
+        //   location: "Remote",
+        //   description: `View my contributions: https://www.tutorialspoint.com/authors/atharva-
+        //     ➙ Conduct in-depth research on various Python-based topics and algorithms to provide detailed tutorials and solutions.
+        //     ➙ Create comprehensive documentation and write clear, concise, and informative tutorials for popular Python libraries such as Matplotlib, Machine Learning, Pandas, Numpy, and more.
+        //     ➙ Ensure the content is plagiarism-free, adhering to high-quality standards, and accessible for learners at all levels.
+        //     ➙ Demonstrate proficiency in solving complex problems across different domains, leveraging Python and its associated libraries.
+        //     ➙ Successfully tackle challenges related to data visualization using Matplotlib, data manipulation with Pandas, implementing machine learning algorithms, and working with databases.
+        //     ➙ Apply web scraping techniques and utilize frameworks like Flask and Django for web development projects.
+        //     ➙ Showcase expertise in Python programming and data structures to deliver efficient and optimized solutions.
+        //     ➙ Stay up-to-date with the latest developments in the Python ecosystem and related technologies to ensure the content remains relevant and cutting-edge.`,
+        //   color: "#009933",
+        // },
+        // {
+        //   title: "Freelance Technical Content Writer",
+        //   company: "Board Infinity",
+        //   company_url: "https://www.boardinfinity.com/",
+        //   logo_path: "board_infinity.png",
+        //   duration: "July 2022 - December 2022",
+        //   location: "Mumbai, Maharashtra",
+        //   description: `➙ Wrote over 20 professional technical articles ranging from topics like programming cheat sheets, full-stack developer resources, programming paradigms, data structures and algorithms, and technical interview tips, with word counts ranging from 1500 to 2000.
 
-            ➙ Researched and wrote 120 technical articles ranging from 500 to 1000 words related to data structures, algorithms, software development, engineering principles, databases, and programming languages (Java, Python, and C++).
+        //     ➙ Researched and wrote 120 technical articles ranging from 500 to 1000 words related to data structures, algorithms, software development, engineering principles, databases, and programming languages (Java, Python, and C++).
 
-            ➙ Answered questions from the forum discussion and Stack Overflow in a well-organized way with examples.
+        //     ➙ Answered questions from the forum discussion and Stack Overflow in a well-organized way with examples.
 
-            ➙ Wrote campaign letters and taglines for email marketing to draw customers to programming courses.
+        //     ➙ Wrote campaign letters and taglines for email marketing to draw customers to programming courses.
 
-            ➙ Provided over 150 descriptions for video courses on modules like DBMS, OS, Data Science, Computer Networking, and Algorithms in C++`,
-          color: "#ee3c26",
-        },
+        //     ➙ Provided over 150 descriptions for video courses on modules like DBMS, OS, Data Science, Computer Networking, and Algorithms in C++`,
+        //   color: "#ee3c26",
+        // },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "January 2023 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many open-source projects. I've worked on projects for organisations such as VocabCLI, 30-Seconds-of-Python, FreeCodeCamp, public-apis, Textualize, Typer, and others. These contributions include bug fixes, feature requests, and formulating proper documentation for the project.",
-          color: "#181717",
-        },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "Developer Program Member",
+    //       company: "Github",
+    //       company_url: "https://github.com/",
+    //       logo_path: "github_logo.png",
+    //       duration: "January 2023 - PRESENT",
+    //       location: "Work From Home",
+    //       description:
+    //         "I am actively contributing to many open-source projects. I've worked on projects for organisations such as VocabCLI, 30-Seconds-of-Python, FreeCodeCamp, public-apis, Textualize, Typer, and others. These contributions include bug fixes, feature requests, and formulating proper documentation for the project.",
+    //       color: "#181717",
+    //     },
 
-        {
-          title: "Developer Students Club Member",
-          company: "Troika",
-          company_url: "https://www.bmcc.ac.in",
-          logo_path: "bmcc_logo.png",
-          duration: "January 2022 - January 2023",
-          location: "Pune, Maharashtra",
-          description:
-            "We have a well established developer club in college that is directly associated with a variety of sponsors. The chief responsibilities were to organise events, workshops, hackathons, and meetups. Additionally, I was responsible for building the club's website from the ground up and creating registration and payment portals for the events.",
-          color: "#0C9D58",
-        },
+    //     {
+    //       title: "Developer Students Club Member",
+    //       company: "Troika",
+    //       company_url: "https://www.bmcc.ac.in",
+    //       logo_path: "bmcc_logo.png",
+    //       duration: "January 2022 - January 2023",
+    //       location: "Pune, Maharashtra",
+    //       description:
+    //         "We have a well established developer club in college that is directly associated with a variety of sponsors. The chief responsibilities were to organise events, workshops, hackathons, and meetups. Additionally, I was responsible for building the club's website from the ground up and creating registration and payment portals for the events.",
+    //       color: "#0C9D58",
+    //     },
 
-        {
-          title: "Google CLoud Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "May 2022 - September 2022",
-          location: "Pune, Maharashtra",
-          description:
-            "Completed four tracks of cloud training. Learned and imparted the skills of DevOps, Cloud Safety, Creating and Deploying Apps in the Cloud, Kubernetes Engine, Scaling, and Data Management on the Cloud. The curriculum offers four tracks of hands-on cloud based training to be performed through virtual machines provided via Qwiklabs. Major duties were to train other students on campus, build a community, and preach the importance of cloud computing and its applications in the real world.",
-          color: "#4285F4",
-        },
-      ],
-    },
+    //     {
+    //       title: "Google CLoud Facilitator",
+    //       company: "Google",
+    //       company_url: "https://about.google/",
+    //       logo_path: "google_logo.png",
+    //       duration: "May 2022 - September 2022",
+    //       location: "Pune, Maharashtra",
+    //       description:
+    //         "Completed four tracks of cloud training. Learned and imparted the skills of DevOps, Cloud Safety, Creating and Deploying Apps in the Cloud, Kubernetes Engine, Scaling, and Data Management on the Cloud. The curriculum offers four tracks of hands-on cloud based training to be performed through virtual machines provided via Qwiklabs. Major duties were to train other students on campus, build a community, and preach the importance of cloud computing and its applications in the real world.",
+    //       color: "#4285F4",
+    //     },
+    //   ],
+    // },
   ],
 };
 
