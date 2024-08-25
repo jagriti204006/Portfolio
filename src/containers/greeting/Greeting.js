@@ -18,7 +18,7 @@ export default function Greeting(props) {
                 {greeting.title}
               </h3>
               <h4 className="greeting-nickname" style={{ color: theme.text }}>
-                 {greeting.nickname} 
+                {greeting.nickname}
               </h4>
               <p
                 className="greeting-text-p subTitle"
@@ -44,9 +44,9 @@ export default function Greeting(props) {
           </div>
           <div className="greeting-image-div">
             <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/shriyaa.png")}
-						></img>
+              alt="saad sitting on table"
+              src={require("../../assests/images/shriyahome.png")}
+            ></img>
             {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
