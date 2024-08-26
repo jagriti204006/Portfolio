@@ -160,3 +160,41 @@
     text-align: justify;
   }
 }
+/* 
+.view-work-button {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  color: #fff;
+  font-family: "Poppins" !important;
+  text-decoration: none;
+
+}
+  
+
+
+*/
+
+.experience-button-container {
+  margin-left: auto; /* Pushes the button to the right */
+}
+
+.view-work-button {
+  margin: 0; /* Remove individual margins */
+  margin-bottom: 1rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-work-button:hover {
+  background-color: #333; /* Adjust hover color if needed */
+}

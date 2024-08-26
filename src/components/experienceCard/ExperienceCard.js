@@ -61,6 +61,18 @@ class ExperienceCard extends Component {
           >
             {experience["description"]}
           </p>
+          <div className="experience-button-container">
+            <button className="view-work-button">
+              <a
+                href={experience["gotopage"]}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: theme.text }}
+              >
+                View Work
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     );
