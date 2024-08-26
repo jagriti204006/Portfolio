@@ -196,3 +196,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+.view-work-button:hover {
+  background-color: #b8c1d9; /* Adjust hover color if needed */
+}
