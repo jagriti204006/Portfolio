@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d01a39beb8d6fda02ed36d68e8923a24",
+    "revision": "e515e7a95d0e1f4b2ec5c99d0e1e7df4",
     "url": "./index.html"
   },
   {
-    "revision": "9edb44b1506cd631cf7b",
-    "url": "./static/css/main.ab29c37b.chunk.css"
+    "revision": "807eae937c1b947a6f46",
+    "url": "./static/css/main.91001fcd.chunk.css"
   },
   {
-    "revision": "613c908f5ef78e0fea0f",
-    "url": "./static/js/2.cd8dfe49.chunk.js"
+    "revision": "62b9c44e2416daa9e8c3",
+    "url": "./static/js/2.46bffbf8.chunk.js"
   },
   {
-    "revision": "9edb44b1506cd631cf7b",
-    "url": "./static/js/main.887e9e28.chunk.js"
+    "revision": "807eae937c1b947a6f46",
+    "url": "./static/js/main.c153d321.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "91a99d7810557137c9783ac3d09a9a2c",
     "url": "./static/media/Shriya Poddar Resume.91a99d78.pdf"
+  },
+  {
+    "revision": "fdfb52d930cb220ea9ba48d8034af445",
+    "url": "./static/media/TBREC.fdfb52d9.png"
   },
   {
     "revision": "8a425eb0fbc2def19aa88406d76a5f3b",
@@ -268,6 +272,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/nptel_logo.95a12a2b.png"
   },
   {
+    "revision": "a59a94d2332dfe327a2220449b1d4440",
+    "url": "./static/media/paint.a59a94d2.png"
+  },
+  {
+    "revision": "75ee57c49875067dd4473f34645c52fa",
+    "url": "./static/media/patil.75ee57c4.png"
+  },
+  {
+    "revision": "cbdb6c0a43b1024dfc12296d5a1a5b20",
+    "url": "./static/media/planck.cbdb6c0a.png"
+  },
+  {
     "revision": "414dfbd98516b39255a3e22ed90b3f7d",
     "url": "./static/media/portfolio.414dfbd9.gif"
   },
@@ -296,6 +312,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/royal1.f2fb5175.png"
   },
   {
+    "revision": "6a789ef6da65c3521d21cbf033ce3365",
+    "url": "./static/media/school.6a789ef6.png"
+  },
+  {
     "revision": "88ec4ea407569ac7625dcbeee88eb0ab",
     "url": "./static/media/shriya.88ec4ea4.png"
   },
@@ -310,6 +330,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4fff0b6b5652b6b0ebdb0d6f4dec87c",
     "url": "./static/media/shriya1.f4fff0b6.jpg"
+  },
+  {
+    "revision": "ec73d7f8947bd4c1eda01ab5969382ec",
+    "url": "./static/media/shriyaa.ec73d7f8.png"
+  },
+  {
+    "revision": "661d51810c9116968f0f4553b8d6dcfe",
+    "url": "./static/media/shriyahome.661d5181.png"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",
