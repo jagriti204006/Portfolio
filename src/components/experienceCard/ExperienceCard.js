@@ -67,7 +67,6 @@ class ExperienceCard extends Component {
                 href={experience["gotopage"]}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: theme.text }}
               >
                 View Work
               </a>

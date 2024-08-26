@@ -20,7 +20,9 @@
 }
 
 .experience-card-logo {
-  width: 70px;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10px;
 }
 
 .experience-card-title {
@@ -160,7 +162,7 @@
     text-align: justify;
   }
 }
-/* 
+/*
 .view-work-button {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
@@ -173,28 +175,49 @@
   text-decoration: none;
 
 }
-  
-
-
 */
 
 .experience-button-container {
-  margin-left: auto; /* Pushes the button to the right */
+  display: flex;
+  justify-content: flex-end; /* Aligns the button to the right */
 }
 
 .view-work-button {
-  margin: 0; /* Remove individual margins */
+  margin-right: 20px; /* Remove individual margins */
   margin-bottom: 1rem;
-  padding: 0.625rem 1.25rem;
-  border-radius: 0.3125rem;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-
+  align-items: center;
+  background-color: #fdfdfd;
+  border: 1px solid #d9dbdf;
+  border-radius: 100px;
+  box-sizing: border-box;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
 }
 
 .view-work-button:hover {
-  background-color: #333; /* Adjust hover color if needed */
+  background-color: #e3e3e3;
+  color: #ffffff; /* Adjust hover color if needed */
 }
