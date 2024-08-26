@@ -370,7 +370,9 @@ const experience = {
   subtitle: "Work, Internship and Volunteership",
   description:
     "🚀Having worked with evolving startups as a visual designer, I am equally capable of working in teams as well as individually. Throughout my journey as a freelancer and as a private company employee, I have served many clients with their needs and requirements, working on varied projects including logo designing, branding, packaging, and visual communication. I am proficient in using design tools like Adobe Photoshop, Illustrator, and After Effects. I have also compiled various design resources and tutorials for my fellow designers and students. When I am not serving my clients, I explore new design trends and experiment with motion graphics and interactive designs.",
+
   header_image_path: "exp.png",
+
   sections: [
     {
       title: "Projects",
@@ -384,6 +386,8 @@ const experience = {
           // location: "COEP, Pune",
           description:
             "Designed the portfolio for TBREC, a Bangalore-based real estate company, focusing on creating a sophisticated and visually engaging presentation. Utilized Adobe InDesign and Photoshop to craft a polished, professional portfolio that highlights the company’s projects and expertise in the real estate industry.",
+          gotopage:
+            "https://drive.google.com/file/d/1pxx_PxeXL4AhcT33YLGe1KbBgonvKahN/view?usp=drive_link",
           color: "#fc1f20",
         },
         {
@@ -395,6 +399,8 @@ const experience = {
           // location: "COEP, Pune",
           description:
             "Designed the portfolio for Planck Food, a munchies snack company, with a focus on creating a vibrant and appetizing visual identity. Utilized Adobe InDesign and Photoshop to craft a visually engaging portfolio that highlights the brand's products and unique appeal in the snack industry.",
+          gotopage:
+            "https://drive.google.com/file/d/19JWTysRVDNNG9NVSXi9_VSxBLje0ZfCG/view?usp=drive_link",
           color: "#fc1f20",
         },
         {
@@ -406,6 +412,8 @@ const experience = {
           // location: "COEP, Pune",
           description:
             "Designed the logo for PaintoMedic, a paint brand, emphasizing a vibrant and memorable brand identity. Utilized Adobe Illustrator to craft a clean, professional logo that reflects the brand's focus on quality and innovation in the paint industry.",
+          gotopage:
+            "https://drive.google.com/file/d/14OZP8sHZ4u9KCLs9UPy5Q9bUUZx_8W6Y/view?usp=drive_link",
           color: "#fc1f20",
         },
         {
@@ -417,6 +425,8 @@ const experience = {
           // location: "COEP, Pune",
           description:
             "Led the design of the MHWS School and Colleges brochure, focusing on creating a visually cohesive and informative layout. Utilized Adobe InDesign, Illustrator, and Photoshop to deliver a polished, professional brochure that effectively showcased the institution’s offerings.",
+          gotopage:
+            "https://drive.google.com/file/d/1OmyPTmKuSbUxe9fJQ4w4I8UYGA7UlAZV/view?usp=drive_link",
           color: "#fc1f20",
         },
       ],
@@ -439,6 +449,8 @@ const experience = {
            ➙ Maintained a high standard of creativity, attention to detail, and adherence to deadlines, effectively communicating the brand's message through compelling visual design.
             `,
           color: "#0071C5",
+          gotopage:
+            "https://drive.google.com/file/d/1J376ajRO8jvBvW3RFnGWnbCOUcFoJB4Q/view?usp=drive_link",
         },
         // {
         //   title: "Freelance Python Specialist",

@@ -68,7 +68,7 @@
 .contact-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins";
   line-height: 1.1;
   text-align: center;
   margin-top: 60px;
@@ -77,7 +77,7 @@
 .blog-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins";
   line-height: 1.1;
   text-align: center;
   margin-top: 40px;
@@ -85,7 +85,7 @@
 
 .address-heading-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Poppins";
   text-align: center;
   margin-bottom: 5rem;
 }
@@ -96,7 +96,7 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins";
 }
 
 .blog-header-detail-text {
@@ -105,7 +105,7 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins";
 }
 
 .resume-btn-div {

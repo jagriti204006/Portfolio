@@ -32,7 +32,7 @@
 .experience-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins" !important;
   line-height: 1.1;
   text-align: center;
   margin-top: 80px;
@@ -40,7 +40,7 @@
 
 .experience-heading-sub-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Poppins" !important;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -51,16 +51,18 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins" !important;
 }
 
 @media (max-width: 1380px) {
   .experience-heading-text {
     font-size: 50px;
     margin-top: 80px;
+    font-family: "Poppins";
   }
   .experience-heading-sub-text {
     font-size: 25px;
+    font-family: "Poppins";
   }
 }
 

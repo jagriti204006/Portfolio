@@ -143,6 +143,7 @@ import ExperienceImg from "./ExperienceImg";
 // 		}
 // 	]
 // };
+import { Link } from "react-router-dom";
 
 class Experience extends Component {
   render() {

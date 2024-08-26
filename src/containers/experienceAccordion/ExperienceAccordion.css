@@ -11,3 +11,44 @@
     margin: 20px;
   }
 }
+
+.accord-panel:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+.experience-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: box-shadow 0.3s ease;
+}
+
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-button-container {
+  margin-left: 20px;
+}
+
+.view-work-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Google Sans Regular", sans-serif;
+}
+
+.view-work-button:hover {
+  background-color: #0056b3;
+}
+*/
