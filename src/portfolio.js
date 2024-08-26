@@ -383,7 +383,7 @@ const experience = {
           // duration: "Jan 2023",
           // location: "COEP, Pune",
           description:
-            "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
+            "Designed the portfolio for TBREC, a Bangalore-based real estate company, focusing on creating a sophisticated and visually engaging presentation. Utilized Adobe InDesign and Photoshop to craft a polished, professional portfolio that highlights the company’s projects and expertise in the real estate industry.",
           color: "#fc1f20",
         },
         {
@@ -394,7 +394,7 @@ const experience = {
           // duration: "Jan 2023",
           // location: "COEP, Pune",
           description:
-            "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
+            "Designed the portfolio for Planck Food, a munchies snack company, with a focus on creating a vibrant and appetizing visual identity. Utilized Adobe InDesign and Photoshop to craft a visually engaging portfolio that highlights the brand's products and unique appeal in the snack industry.",
           color: "#fc1f20",
         },
         {
@@ -405,7 +405,7 @@ const experience = {
           // duration: "Jan 2023",
           // location: "COEP, Pune",
           description:
-            "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
+            "Designed the logo for PaintoMedic, a paint brand, emphasizing a vibrant and memorable brand identity. Utilized Adobe Illustrator to craft a clean, professional logo that reflects the brand's focus on quality and innovation in the paint industry.",
           color: "#fc1f20",
         },
         {
@@ -416,7 +416,7 @@ const experience = {
           // duration: "Jan 2023",
           // location: "COEP, Pune",
           description:
-            "Won first place in the hackathon, and was awarded a cash prize of INR 50,000. Led a team of 3 to develop Risk Entity Extracter from News Articles using Natural Language Processing and Machine Learning. The project was built using Python, NLTK, and Tableau with lot of data cleaning and preprocessing and visualization over a period of 24 hours.",
+            "Led the design of the MHWS School and Colleges brochure, focusing on creating a visually cohesive and informative layout. Utilized Adobe InDesign, Illustrator, and Photoshop to deliver a polished, professional brochure that effectively showcased the institution’s offerings.",
           color: "#fc1f20",
         },
       ],
@@ -432,11 +432,11 @@ const experience = {
           // duration: "May 2023 - Present",
           // location: "Remote",
           description: `
-            ➙ Composed engaging and informative blog posts, white papers, e-books, and videos to educate and engage the target audience on Cloud Native Application Privacy and Protection (CNAPP) topics.
-            ➙ Demonstrated proficiency in using various software tools such as G Suite, Jira, Confluence, Excalidraw, PlantUML, and Wordpress to efficiently create, manage, and publish content.
-            ➙ Conducted extensive research on emerging trends and industry best practices related to CNAPP, Zero-Trust principles, Use Cases, Deep Dives, Kubernetes, and DevSecOps to produce high-quality editorial-style content.
-            ➙ Collaborated closely with cross-functional teams including developers, subject matter experts, and marketing professionals to gather insights and align content with the organization's goals and messaging.
-            ➙ Maintained a high level of professionalism, attention to detail, and adherence to deadlines while delivering compelling and well-structured content that effectively communicated complex technical concepts to a wide range of audiences.
+           ➙ Designed engaging and visually appealing graphics, packaging, and branding materials that aligned with Patil Kaki's brand identity and marketing goals.
+           ➙ Utilized design software such as Adobe Photoshop, Illustrator, and After Effects to create and deliver high-quality visual content for various platforms.
+           ➙ Conducted research on industry trends and competitor designs to ensure Patil Kaki's visuals remained fresh, relevant, and competitive.
+           ➙ Collaborated with cross-functional teams, including marketing, product development, and sales, to gather input and ensure design consistency across all materials.
+           ➙ Maintained a high standard of creativity, attention to detail, and adherence to deadlines, effectively communicating the brand's message through compelling visual design.
             `,
           color: "#0071C5",
         },
