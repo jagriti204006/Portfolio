@@ -8,13 +8,6 @@ class SoftwareSkill extends React.Component {
       <div>
         <div className="software-skills-main-div">
           <ul className="dev-icons">
-            {/* {skillsSection.softwareSkills.map(skills => {
-            return (
-              <li className="software-skill-inline" name={skills.skillName}>
-                <i className={skills.fontAwesomeClassname}></i>
-              </li>
-            );
-          })} */}
             {this.props.logos.map((logo) => {
               return (
                 <OverlayTrigger
@@ -27,12 +20,20 @@ class SoftwareSkill extends React.Component {
                   }
                 >
                   <li className="software-skill-inline" name={logo.skillName}>
-                    <span
-                      className="iconify"
-                      data-icon={logo.fontAwesomeClassname}
-                      style={logo.style}
-                      data-inline="false"
-                    ></span>
+                    {logo.skillName === "InDesign" ? (
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg"
+                        alt={logo.skillName}
+                        style={{ width: "48px", height: "48px", ...logo.style }} // Add any custom styles here
+                      />
+                    ) : (
+                      <span
+                        className="iconify"
+                        data-icon={logo.fontAwesomeClassname}
+                        style={logo.style}
+                        data-inline="false"
+                      ></span>
+                    )}
                   </li>
                 </OverlayTrigger>
               );
