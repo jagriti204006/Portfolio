@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.2400fedc.chunk.css",
-    "main.js": "./static/js/main.0005eada.chunk.js",
-    "main.js.map": "./static/js/main.0005eada.chunk.js.map",
+    "main.css": "./static/css/main.be93aa33.chunk.css",
+    "main.js": "./static/js/main.8557a669.chunk.js",
+    "main.js.map": "./static/js/main.8557a669.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
-    "static/js/2.3c29d536.chunk.js": "./static/js/2.3c29d536.chunk.js",
-    "static/js/2.3c29d536.chunk.js.map": "./static/js/2.3c29d536.chunk.js.map",
+    "static/js/2.a6338678.chunk.js": "./static/js/2.a6338678.chunk.js",
+    "static/js/2.a6338678.chunk.js.map": "./static/js/2.a6338678.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.3a7024c4dcfe9cdb6d759f6d67160ef7.js": "./precache-manifest.3a7024c4dcfe9cdb6d759f6d67160ef7.js",
+    "precache-manifest.4a6fe03b8dcee9aaf95a9e8d8d5885de.js": "./precache-manifest.4a6fe03b8dcee9aaf95a9e8d8d5885de.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.2400fedc.chunk.css.map": "./static/css/main.2400fedc.chunk.css.map",
+    "static/css/main.be93aa33.chunk.css.map": "./static/css/main.be93aa33.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Shriya Poddar Resume.pdf": "./static/media/Shriya Poddar Resume.91a99d78.pdf",
     "static/media/TBREC.png": "./static/media/TBREC.fdfb52d9.png",
@@ -79,8 +79,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
-    "static/js/2.3c29d536.chunk.js",
-    "static/css/main.2400fedc.chunk.css",
-    "static/js/main.0005eada.chunk.js"
+    "static/js/2.a6338678.chunk.js",
+    "static/css/main.be93aa33.chunk.css",
+    "static/js/main.8557a669.chunk.js"
   ]
 }
