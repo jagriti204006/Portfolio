@@ -48,7 +48,7 @@
 .experience-header-detail-text {
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0px;
+  margin-top: none;
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Poppins" !important;
