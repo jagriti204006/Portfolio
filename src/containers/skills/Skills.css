@@ -1,6 +1,7 @@
 .skills-main-div {
   display: flex;
   overflow: hidden;
+  justify-content: space-between;
   /* margin-top: -2rem; */
 }
 
@@ -14,6 +15,7 @@
 
 .skills-text {
   font-size: 20px;
+  margin: 0;
 }
 
 .skills-text-div {
@@ -37,6 +39,32 @@
   font-weight: 400;
   font-family: "Google Sans Regular";
   line-height: normal;
+}
+
+.skills-image-div {
+  width: 40%;
+}
+
+.skills-text-div {
+  width: 55%;
+}
+
+.accordion-summary {
+  min-height: 30px;
+  padding: 0;
+}
+
+.accordion-details {
+  padding: 10px 0;
+}
+
+.accordion .Mui-expanded {
+  min-height: 30px;
+}
+
+.MuiAccordion-root {
+  box-shadow: none;
+  margin-bottom: 5px;
 }
 
 /* Media Query */
