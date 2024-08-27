@@ -86,42 +86,37 @@ const skills = {
         {
           name: "Graphic Design",
           description:
-            "Designing appealing and functional packaging solutions.",
+            "Creating impactful visual designs that communicate messages effectively across various media.",
         },
         {
           name: "Website Design",
           description:
-            "Designing appealing and functional packaging solutions.",
+            "Designing user-friendly and visually appealing websites that represent your brand online.",
         },
         {
           name: "Print Design",
           description:
-            "Designing appealing and functional packaging solutions.",
+            "Crafting high-quality print materials like flyers and business cards to reinforce your brand identity.",
         },
         {
           name: "Brochure Design",
           description:
-            "Designing appealing and functional packaging solutions.",
+            "Creating visually engaging brochures that effectively communicate your brand’s message.",
         },
         {
           name: "Design Strategy",
           description:
-            "Designing appealing and functional packaging solutions.",
+            "Developing strategies that ensure consistency and coherence across all design elements.",
         },
         {
           name: "Visual Identity",
           description:
-            "Designing appealing and functional packaging solutions.",
+            "Establishing a cohesive visual identity that reflects your brand’s values and personality.",
         },
         {
           name: "Brand Guidelines",
           description:
-            "Designing appealing and functional packaging solutions.",
-        },
-        {
-          name: "Packaging",
-          description:
-            "Designing appealing and functional packaging solutions.",
+            "Creating guidelines to maintain consistency across all visual aspects of your brand.",
         },
       ],
       softwareSkills: [
