@@ -69,16 +69,60 @@ const skills = {
       title: "Visual Communication",
 
       skills: [
-        "Logo Designing",
-        "Branding",
-        "Packaging",
-        "Graphic Design",
-        "Website Design",
-        "Print Design",
-        "Brochure Design",
-        "Design Strategy",
-        "Visual Identity",
-        "Brand Guidelines",
+        {
+          name: "Logo Designing",
+          description:
+            "Creating unique and memorable logos that represent brand identity.",
+        },
+        {
+          name: "Branding",
+          description: "Developing brand strategies and guidelines.",
+        },
+        {
+          name: "Packaging",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Graphic Design",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Website Design",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Print Design",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Brochure Design",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Design Strategy",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Visual Identity",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Brand Guidelines",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
+        {
+          name: "Packaging",
+          description:
+            "Designing appealing and functional packaging solutions.",
+        },
       ],
       softwareSkills: [
         {

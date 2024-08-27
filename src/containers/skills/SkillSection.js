@@ -1,71 +1,85 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-import DesignImg from "./DesignImg";
+import {
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+} from "@material-ui/core";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
-}
+const SkillSection = ({ theme }) => {
+  const [expanded, setExpanded] = useState(false);
 
-class SkillSection extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div>
-        {skills.data.map((skill) => {
-          return (
-            <div className="skills-main-div">
-              <Fade left duration={2000}>
-                <div className="skills-image-div">
-                  <img
-                    alt="Shriya is designing Logo "
-                    src={require(`../../assests/images/what.png`)}
-                  ></img>
-                  {/* <GetSkillSvg fileName={skill.fileName} theme={theme} /> */}
-                </div>
-              </Fade>
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
 
-              <div className="skills-text-div">
-                <Fade right duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
-                    {skill.title}
-                  </h1>
-                </Fade>
-                <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </Fade>
-                <Fade right duration={2000}>
-                  <div>
-                    {skill.skills.map((skillSentence) => {
-                      return (
+  return (
+    <div>
+      {skills.data.map((skillCategory, index) => (
+        <div className="skills-main-div" key={index}>
+          <Fade left duration={2000}>
+            <div className="skills-image-div">
+              <img
+                alt="Shriya is designing Logo"
+                src={require(`../../assests/images/what.png`)}
+              ></img>
+            </div>
+          </Fade>
+
+          <div className="skills-text-div">
+            <Fade right duration={1000}>
+              <h1 className="skills-heading" style={{ color: theme.text }}>
+                {skillCategory.title}
+              </h1>
+            </Fade>
+            <Fade right duration={1500}>
+              <SoftwareSkill logos={skillCategory.softwareSkills} />
+            </Fade>
+            <Fade right duration={2000}>
+              <div>
+                {skillCategory.skills.map((skill, skillIndex) => {
+                  const panelId = `panel-${index}-${skillIndex}`;
+                  return (
+                    <Accordion
+                      expanded={expanded === panelId}
+                      onChange={handleChange(panelId)}
+                      key={skillIndex}
+                    >
+                      <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls={`${panelId}-content`}
+                        id={`${panelId}-header`}
+                        className="accordion-summary"
+                      >
                         <p
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
-                          {skillSentence}
+                          {skill.name}
                         </p>
-                      );
-                    })}
-                  </div>
-                </Fade>
+                      </AccordionSummary>
+                      <AccordionDetails className="accordion-details">
+                        <p
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                        >
+                          {skill.description}
+                        </p>
+                      </AccordionDetails>
+                    </Accordion>
+                  );
+                })}
               </div>
-            </div>
-          );
-        })}
-      </div>
-    );
-  }
-}
+            </Fade>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export default SkillSection;
