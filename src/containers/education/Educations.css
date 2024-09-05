@@ -1,18 +1,21 @@
 .educations-header {
-  font-size: 40px;
+  font-size: 2.5rem; /* 40px */
   line-height: 1.1;
   font-family: "Poppins";
   text-align: center;
+  margin-top: 6rem; /* Add top margin to create space between the image and heading */
 }
 
 @media (max-width: 1380px) {
   .educations-header {
-    font-size: 35px;
+    font-size: 2.1875rem; /* 35px */
+    margin-top: 1.5rem; /* Adjust top margin for smaller viewports */
   }
 }
 
 @media (max-width: 768px) {
   .educations-header {
-    font-size: 30px;
+    font-size: 1.875rem; /* 30px */
+    margin-top: 1rem; /* Further adjust top margin for mobile viewports */
   }
 }

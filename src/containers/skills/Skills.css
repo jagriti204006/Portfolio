@@ -2,43 +2,47 @@
   display: flex;
   overflow: hidden;
   justify-content: space-between;
-  /* margin-top: -2rem; */
 }
 
 .skills-header {
-  font-size: 60px;
+  font-size: 3.75rem; /* 60px to rem */
   line-height: normal;
   font-family: "Google Sans Regular";
   text-align: center;
-  margin-top: -4rem;
+  margin-top: -2.5rem; /* Adjusted margin */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skills-text {
-  font-size: 20px;
+  font-size: 1.25rem; /* 20px to rem */
   margin: 0;
 }
 
 .skills-text-div {
-  margin-left: 50px;
+  margin-left: 3.125rem; /* 50px to rem */
   font-family: "Google Sans Regular";
 }
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem; /* 30px to rem */
 }
 
 .skills-image-div > * {
   max-width: 100%;
   height: auto;
-  margin-top: 5rem;
+  margin-top: 3.125rem; /* 50px to rem */
 }
 
 .skills-heading {
-  font-size: 56px;
+  font-size: 3.5rem; /* 56px to rem */
   font-weight: 400;
   font-family: "Google Sans Regular";
   line-height: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skills-image-div {
@@ -50,66 +54,75 @@
 }
 
 .accordion-summary {
-  min-height: 30px;
+  min-height: 1.875rem; /* 30px to rem */
   padding: 0;
 }
 
 .accordion-details {
-  padding: 10px 0;
+  padding: 0.625rem 0; /* 10px to rem */
 }
 
 .accordion .Mui-expanded {
-  min-height: 30px;
+  min-height: 1.875rem; /* 30px to rem */
 }
 
 .MuiAccordion-root {
   box-shadow: none;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem; /* 5px to rem */
 }
 
 /* Media Query */
-@media (max-width: 1380px) {
+@media (max-width: 86.25rem) {
+  /* 1380px to rem */
   .skills-heading {
-    font-size: 40px;
+    font-size: 2.5rem; /* 40px to rem */
+    margin-left: -1rem;
+    margin-right: auto;
   }
   .skills-header {
-    font-size: 50px;
+    font-size: 3.125rem; /* 50px to rem */
   }
-  /* .skills-image-div > img {
-    margin-top: 0px;
-  } */
 }
-@media (max-width: 768px) {
+
+@media (max-width: 48rem) {
+  /* 768px to rem */
   .skills-heading {
-    font-size: 30px;
+    font-size: 1.875rem; /* 30px to rem */
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .skills-header {
-    font-size: 30px;
+    font-size: 1.875rem; /* 30px to rem */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 1rem; /* 16px to rem */
     line-height: normal;
   }
   .skills-main-div {
     flex-direction: column;
+    align-items: center; /* Center the accordions */
   }
   .skills-text-div {
-    margin-left: 0px;
-    margin: 20px;
+    margin-left: 0;
+    margin: 1.25rem; /* 20px to rem */
+    text-align: center; /* Center text */
   }
   .skills-text {
-    font-size: 16px;
+    font-size: 1rem; /* 16px to rem */
   }
   .skills-text-subtitle {
-    font-size: 16px;
+    font-size: 1rem; /* 16px to rem */
     text-align: center;
   }
   .skills-image-div {
-    /* display: none; */
     order: 2;
+    margin-top: 0;
   }
   .skills-image-div > * {
-    margin-top: 0px;
+    margin-top: 0;
   }
 }

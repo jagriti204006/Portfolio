@@ -1,20 +1,21 @@
 .main {
   width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  padding: 1.25rem 0.625rem; /* 20px 10px */
+  margin: 0 auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  padding: 1.25rem 0.625rem; /* 20px 10px */
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
 .gretting-main {
   width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  padding: 1.25rem 0.625rem; /* 20px 10px */
+  margin: 0 auto;
 }
 
 .greeting-main {
@@ -23,30 +24,31 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem; /* 30px */
 }
+
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+  margin-top: 1.25rem; /* 20px */
 }
 
 .greeting-text {
-  margin-top: 80px;
-  font-size: 55px;
+  margin-top: 5rem; /* 80px */
+  font-size: 3.4375rem; /* 55px */
   line-height: 1.1;
-  font-family:"Poppins";
+  font-family: "Poppins";
 }
 
 .greeting-nickname {
-  font-size: 25px;
-  line-height: 0px;
-  font-family:"Poppins";
+  font-size: 1.5625rem; /* 25px */
+  line-height: 0;
+  font-family: "Poppins";
 }
 
 .greeting-text-p {
-  font-size: 20px;
-  line-height: 30px;
-  margin-right: 40px;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.875rem; /* 30px */
+  margin-right: 2.5rem; /* 40px */
   font-family: "Poppins";
 }
 
@@ -55,31 +57,35 @@
   height: auto;
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
+/* Media Query for screens smaller than 1380px */
+@media (max-width: 86.25rem) {
+  /* 1380px */
   .greeting-text {
-    font-size: 30px;
+    font-size: 1.875rem; /* 30px */
   }
   .greeting-text-p {
-    font-size: 15px !important;
+    font-size: 0.9375rem !important; /* 15px */
   }
 }
-@media (max-width: 768px) {
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 48rem) {
+  /* 768px */
   .button-greeting-div {
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 25px;
-    margin-top: 0px;
+    font-size: 1.5625rem; /* 25px */
+    margin-top: 0;
     text-align: center;
   }
   .greeting-nickname {
-    font-size: 25px;
+    font-size: 1.5625rem; /* 25px */
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 16px;
-    margin-right: 0px;
+    font-size: 1rem; /* 16px */
+    margin-right: 0;
     line-height: normal;
     text-align: center;
   }
